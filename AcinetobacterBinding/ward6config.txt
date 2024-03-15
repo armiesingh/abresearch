@@ -1,0 +1,9 @@
+receptor = 7p2y_clean.pdbqt
+ligand = ward6.pdbqt
+center_x = 173.834
+center_y = 190.939
+center_z = 272.076
+size_x = 27.75
+size_y = 24.0
+size_z = 32.25
+out = ward6out.txt
