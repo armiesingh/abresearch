@@ -7,7 +7,7 @@ Set app = CreateObject("ChemDraw.Application")
 Set filesys = CreateObject("Scripting.FileSystemObject")
 
 ' Specify the folder containing CDXML files
-Set folder = filesys.GetFolder("C:\Users\ZS135Bs\Desktop\Chem 312")
+Set folder = filesys.GetFolder("C:\Users\ZS135Bs\Desktop\ABResearch\abresearch\AcinetobacterBinding\newcompounds")
 
 ' Loop through each file in the folder
 For Each file In folder.Files
