@@ -12,7 +12,7 @@ Set folder = filesys.GetFolder("C:\Users\ZS135Bs\Desktop\ABResearch\abresearch\A
 ' Loop through each file in the folder
 For Each file In folder.Files
     ' Check if the file is a CDXML file
-    If LCase(filesys.GetExtensionName(file.Path)) = "c3xml" Then
+    If LCase(filesys.GetExtensionName(file.Path)) = "cdxml" Then
         ' Open the CDXML file in ChemDraw3D
         Set doc = app.Documents.Open(file.Path)
         
